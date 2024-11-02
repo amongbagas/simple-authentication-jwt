@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node src/index.ts" 
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/amongbagas/simple-authentication-jwt#readme",
   "dependencies": {
+    "@prisma/client": "^5.21.1",
     "express": "^4.21.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.8.6",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.21.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
