@@ -1,0 +1,29 @@
+{
+  "name": "simple-authentication-jwt",
+  "version": "1.0.0",
+  "description": "Simple Authentication with JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amongbagas/simple-authentication-jwt.git"
+  },
+  "author": "Among Bagas Punarbawa Purnama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amongbagas/simple-authentication-jwt/issues"
+  },
+  "homepage": "https://github.com/amongbagas/simple-authentication-jwt#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
